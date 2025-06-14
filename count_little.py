@@ -3,7 +3,7 @@ sentenca = "Mary had a little lamb Little lamb, little lamb Mary had a little la
 def contador_de_littles(sentenca):
     # separar string em lista de palavras
     palavras = []
-    sentenca_strip = sentenca.lower().split()
+    sentenca_split = sentenca.lower().split()
     for palavra in sentenca_strip:
         palavras.append(palavra)
     print(palavras)
