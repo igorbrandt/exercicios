@@ -16,6 +16,7 @@ def contador_de_palavras(sentenca):
             contagem_palavras += 1
     
     print(f'''
-          A palavra procurada *{PALAVRA_PROCURADA}* aparece {contagem_palavras} vezes na sentença\n''')
+          A palavra procurada *{PALAVRA_PROCURADA}* aparece {contagem_palavras} vezes na sentença
+          ''')
 
 contador_de_palavras(sentenca)
